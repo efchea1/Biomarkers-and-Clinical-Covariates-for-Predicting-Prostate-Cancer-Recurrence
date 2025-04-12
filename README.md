@@ -2,7 +2,7 @@
 Prostate cancer poses high recurrence risks post-prostatectomy. This study assessed whether combining 40 biomarkers with clinical factors (age, PSA, Gleason score, tumor stage) improves 5-year recurrence prediction compared to using clinical covariates alone.
 
 
-## Statistical Analysis Plan for Case Study 3: Biomarkers for Predicting Prostate Cancer Recurrence
+## Statistical Analysis Plan (SAP)
 **NOTE:** Only the Statistical Analysis Plan (SAP) and the code used for the data analysis are posted on this repository. The Statistical Analysis Report and the dataset used will not be posted.
 
 ## INTRODUCTION
