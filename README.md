@@ -6,7 +6,7 @@ Prostate cancer poses high recurrence risks post-prostatectomy. This study asses
 **NOTE:** Only the Statistical Analysis Plan (SAP) and the code used for the data analysis are posted on this repository. The Statistical Analysis Report and the dataset used will not be posted.
 
 ## INTRODUCTION
-**Prostate cancer (PCa)** is a prevalent health issue, necessitating improved methods for predicting recurrence post-surgery. Multiple biomarkers have been proposed for their potential predictive value. This study evaluates if combining 40 candidate biomarkers with clinical covariates enhances predictive accuracy for PCa recurrence within five years post-prostatectomy. The research specifically addresses the following:
+**Prostate cancer (PCa)** is a prevalent health issue, necessitating improved methods for predicting recurrence post-surgery. Multiple biomarkers have been proposed for their potential predictive value. This study evaluates whether combining 40 candidate biomarkers with clinical covariates enhances predictive accuracy for PCa recurrence within five years post-prostatectomy. The research specifically addresses the following:
 Can these biomarkers be combined with clinical covariates to develop a predictive model for prostate cancer recurrence within five years of prostatectomy?
 Does adding the biomarkers to the clinical covariates result in better predictions than using the clinical covariates alone?
 
@@ -16,7 +16,7 @@ The analysis utilizes the "40genes_data.csv" dataset, originating from the Unive
 **Biomarkers:** 40 biomarkers standardized to have an SD = 1.
 
 **Modifications:**
-Created binary outcome variable for recurrence within five years based on biochemical failure and follow-up time.
+Created a binary outcome variable for recurrence within five years based on biochemical failure and follow-up time.
 Gleason score was recoded as an ordered factor with levels (3+3, 3+4, 4+3, 4+4, 4+5).
 
 Justification: Having the Gleason score as an ordered factor helps in accurately modeling the relationship between Gleason scores and the likelihood of PCa recurrence. It allows the models to recognize the inherent order in the Gleason scores, which can impact the predictions and interpretations.
@@ -43,3 +43,9 @@ Model Selection & Validation: 10-fold cross-validation for assessing performance
 **Metrics:** Area Under the ROC Curve (AUC), sensitivity, specificity; DeLong test for model comparison.
 **Software:** R software (version ≥ 4.0).
 **Significance Level:** p-value < 0.05 is considered statistically significant.
+
+## 📄 License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+© 2025 Emmanuel Fle Chea. See the LICENSE file for full terms and usage guidelines.
